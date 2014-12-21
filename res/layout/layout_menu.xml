@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+   >
+   <RelativeLayout 
+       android:layout_width="match_parent"
+       android:layout_height="60dip"
+       android:padding="5dip"
+       android:background="@drawable/bg_actionbar_title">
+		 <ImageButton
+	        android:id="@+id/btn_calendar"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentLeft="true"
+	        android:src="@drawable/btn_cal" 
+	        android:background="@android:color/transparent"/>
+	    
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_centerVertical="true"
+	        android:text="@string/app_name"
+	        android:textColor="@color/white"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	    <ImageButton
+	        android:id="@+id/btn_settings"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentRight="true"
+	        android:src="@drawable/btn_setting" 
+	        android:background="@android:color/transparent"/>
+	</RelativeLayout>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="50dip"
+       android:padding="5dip" 
+       android:background="@drawable/bg_actionbar_tab">
+	   <ImageButton
+	        android:id="@+id/btn_left"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentLeft="true"
+	        android:src="@drawable/btn_left" 
+	        android:background="@android:color/transparent"/>
+	    
+	    <TextView
+	        android:id="@+id/tv_date"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_centerVertical="true"
+	        android:text="Date"
+	        android:textColor="@color/white"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	    <ImageButton
+	        android:id="@+id/btn_right"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentRight="true"
+	        android:src="@drawable/btn_right" 
+	        android:background="@android:color/transparent"/> 
+   </RelativeLayout>
+
+</LinearLayout>
